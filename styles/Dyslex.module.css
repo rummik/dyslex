@@ -1,0 +1,13 @@
+.primary, .secondary {
+  transition: opacity 1000ms ease-in-out;
+  position: absolute;
+  left: 0;
+}
+
+.primary, .enter, .enter-active {
+  opacity: 0.6;
+}
+
+.secondary, .exit, .exit-active {
+  opacity: 0.1;
+}
